@@ -18,3 +18,7 @@ tzdata		 2024.2
 ## Google requeriments:
 
 It is necessary to have a Google Account, along with its App Password to send the emails. You can send a máximum of 2k emails per day.
+
+## Instructions:
+
+Just run __main__ file :D
