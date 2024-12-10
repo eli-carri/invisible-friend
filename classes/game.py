@@ -42,8 +42,7 @@ class Game:
             self._distributions = result.stdout.split(' ')
             self._distributions.remove('')
             self._distributions = [int(p) for p in self._distributions]
-            print(f'Distributions successfully generated!')
-            print(f'{self._distributions}\n')
+            print(f'Distributions successfully generated!\n')
 
         else:
             print("Error:")
