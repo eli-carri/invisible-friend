@@ -1,9 +1,10 @@
 import subprocess
-from classes.friend import *
-from classes.game import *
+from classes.friend import Friend
+from classes.game import Game
 
-num_players = input("Number of players: ")
+num_players = int(input("Number of players: "))
 invisible_friend = Game(num_players)
+invisible_friend.add_friends()
 invisible_friend.run_game()
 invisible_friend.send_emails()
 
