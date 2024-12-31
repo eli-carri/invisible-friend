@@ -1,6 +1,6 @@
 # invisible-friend
 
-This mini-project was made to play with my tiny group of friends, however it can be used for a maximum of 2k people. It uses Ford-Fulkersen algorithm to assign each invisible friend, cause this problem can be thinked as a bipartite matching one.
+This mini-project was made to play with my group of friends. It uses Ford-Fulkersen algorithm to assign each invisible friend, as a bipartite matching prpblem.
 
 ## Python requeriments:
 numpy		 2.2.0
@@ -17,8 +17,4 @@ tzdata		 2024.2
 
 ## Google requeriments:
 
-It is necessary to have a Google Account, along with its App Password to send the emails. You can send a máximum of 2k emails per day.
-
-## Instructions:
-
-Just run __main__ file :D
+It is necessary to have a Google Account, along with its App Password to send the emails.
