@@ -66,11 +66,11 @@ class Game:
         smtp_port = 587
         # Message config
         addressee = friend.email()
-        subject = "<NO RESPONDER> Amigo Invisible"
-        body = ('=========== AMIGO INVISIBLE ===========\n' +
-                '¡Felicidades! Sos amig@ invisible de: ' + receiver.name() + '\n' +
-                'Te dejó un mensaje: "' + receiver.message() + '"\n' +
-                '======================================')
+        subject = "[no-reply] Amigo Invisible"
+        body = ('¡Felicidades! Sos amig@ invisible de:\n' + 
+                receiver.name() + '\n' +
+                'Te dejó un mensaje: ' + receiver.message() + '\n'
+                '¡Abrazo!')
         message = MIMEMultipart()
         message["From"] = email
         message["To"] = addressee
