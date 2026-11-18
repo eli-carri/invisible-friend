@@ -84,7 +84,7 @@ class Game:
             server.login(email, password)
             # Send email
             server.sendmail(email, addressee, message.as_string())
-            print("Email successfully sended to " + receiver.name())
+            print("Email successfully sent to " + friend.name())
             # Quit server
             server.quit()
 
